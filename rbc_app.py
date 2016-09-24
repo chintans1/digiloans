@@ -10,10 +10,13 @@ def my_form():
 
 @app.route('/', methods=['POST'])
 def my_form_post():
-
     text = request.form['text']
-    processed_text = text.upper()
-    return processed_text
+    if(text == "ilidf10y"):
+    	return "logged in"
+    else:
+        return "wrong password"	
+
+
 
 if __name__ == '__main__':
     app.run()
