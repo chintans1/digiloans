@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<body background="background.jpg">
+
+<style>
+.container {
+    position: relative;
+}
+
+.center {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    opacity: 0.3;
+}
+</style>
+
+<div class="container">
+ 
+  <div class="center">
+
+  <h3>Business Demands</h3>
+
+	<input type="search" id="mySearch" placeholder="Industries">
+
+	<p>Click the button to get the placeholder text of the search field.</p>
+
+	<a href="default.asp">
+  	<img src="smiley.gif" alt="HTML tutorial" style="width:42px;height:42px;border:0;">
+	</a>
+	<p id="demo"></p>
+
+  </div>
+
+
+
+
+</div>
+
+
+
+
+<script>
+function myFunction() {
+    var x = document.getElementById("mySearch").placeholder;
+    document.getElementById("demo").innerHTML = x;
+}
+</script>
+
+</body>
+</html>
