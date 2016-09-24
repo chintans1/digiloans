@@ -235,7 +235,7 @@ ul.list-style-none {
   }
 }
 #top {
-  background: #555555;
+  background: #002888;
   color: #eeeeee;
   padding: 10px 0;
 }
@@ -1155,7 +1155,7 @@ fieldset[disabled] .btn-template-primary.active {
   left: 0;
   width: 100%;
   height: 100%;
-  background: #38a7bb;
+  background: #fedf01;
   opacity: 0.9;
   filter: alpha(opacity=90);
 }
@@ -1434,8 +1434,8 @@ fieldset[disabled] .btn-template-primary.active {
   margin-bottom: 40px;
 }
 .box-simple .icon {
-  color: #38a7bb;
-  border-color: #38a7bb;
+  color: #fedf01;
+  border-color: #fedf01;
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
