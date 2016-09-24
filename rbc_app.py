@@ -1,9 +1,19 @@
-from flask import Flask, render_template
+from flask import Flask
+from flask import request
+from flask import render_template
+
 app = Flask(__name__)
 
-@app.route("/")
-def main():
-    return render_template('index.html')
+@app.route('/')
+def my_form():
+    return render_template("testcommand.html")
 
-if __name__ == "__main__":
+@app.route('/', methods=['POST'])
+def my_form_post():
+
+    text = request.form['text']
+    processed_text = text.upper()
+    return processed_text
+
+if __name__ == '__main__':
     app.run()
