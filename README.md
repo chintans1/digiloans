@@ -1,3 +1,3 @@
 # ProjectX
 
-RBC Hacks 2016
+Idea for the RBC Hacks 2016
