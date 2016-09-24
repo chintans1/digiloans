@@ -11,9 +11,12 @@ def my_form():
 @app.route('/', methods=['POST'])
 def my_form_post():
 
-    text = request.form['text']
+    text = request.form['teext']
     processed_text = text.upper()
     return processed_text
+
+
+
 
 if __name__ == '__main__':
     app.run()
