@@ -1,8 +1,9 @@
-from flask import Flask, render_template, redirect, url_for, request,url_for
+from flask import Flask, render_template, redirect, url_for, request
 
 
 app = Flask(__name__)
-usr_pass = {"jane":"1234","Mary":"hell0","rndm":"smh"}
+usr_pass = {"Jane":"1234","Mary":"hell0","rndm":"smh"}
+employee_pass = {"Dino":"admin","Sam":"iusetd"}
 
 @app.route('/')
 def my_form():
@@ -28,33 +29,14 @@ def creditPanel():
 def my_form_post():
     user = request.form['user']
     passw = request.form['pass']
-    contact = request.form['contact']
     
     if(request.method == "POST"):
         if((user in usr_pass.keys())and (passw == usr_pass.get(user))):
-            return render_template("user.html",number = "15")
+            return render_template("user.html",number1 = "15",number2 = "25")
         else:
             return render_template("sign-up.html")
     else:
         return render_template('index.html')
-
-app.route('/', methods=['POST'])
-def x_form_post():
-    user = request.form['usersignup']
-    userlogin = request.form['userlogin']
-    passlogin = request.form['passlogin']
-    email = request.form['email']
-    passw = request.form['passsignup']
-    sinnum = request.form['sinnum']
-    phnnum = request.form['phnnum']
-    firstname = request.form['fname']
-    lastname = request.form['lname']
-    print(user,userlogin,passlogin,passw,email,sinnum,phnnum,firstname,lastname)
-    if(request.method == "POST"):
-        usr_pass[user] = [email.strip(),passw.strip(),sinnum.strip(),phnnum.strip(),firstname.strip(),lastname.strip()]
-        return str(usr_pass)
-    else:
-        return render_template('sign-up.html')
 
 if __name__ == '__main__':
     app.run()
