@@ -2,7 +2,7 @@ from flask import Flask, render_template, redirect, url_for, request,url_for
 
 
 app = Flask(__name__)
-usr_pass = {usr_pass = {"jane":"1234","Mary":"hell0","rndm":"smh"}
+usr_pass = {"jane":"1234","Mary":"hell0","rndm":"smh"}
 
 @app.route('/')
 def my_form():
@@ -23,20 +23,20 @@ def my_form_post():
 
 app.route('/sign-up', methods=['POST'])
 def my_form_post():
-	    user = request.form['usersignup']
-	    userlogin = request.form['user']
-    	passlogin = request.form['pass']
-	    email = request.form['email']
-	    passw = request.form['passsignup']
-	    sinnum = request.form['sinnum']
-	    phnnum = request.form['phnnum']
-	    firstname = request.form['fname']
-	    lastname = request.form['lname']
-	    if(request.method == "POST"):
-	    	usr_pass[user] = [email.strip(),passw.strip(),sinnum.strip(),phnnum.strip(),firstname.strip(),lastname.strip()]
-		    	return render_template("user.html")
-		else:
-			return render_template('sign-up.html')
+    user = request.form['usersignup']
+    userlogin = request.form['user']
+	passlogin = request.form['pass']
+    email = request.form['email']
+    passw = request.form['passsignup']
+    sinnum = request.form['sinnum']
+    phnnum = request.form['phnnum']
+    firs	tname = request.form['fname']
+    lastname = request.form['lname']
+    if(request.method == "POST"):
+    	usr_pass[user] = [email.strip(),passw.strip(),sinnum.strip(),phnnum.strip(),firstname.strip(),lastname.strip()]
+	    	return str(usr_pass)
+	else:
+		return render_template('sign-up.html')
 
 if __name__ == '__main__':
     app.run()
