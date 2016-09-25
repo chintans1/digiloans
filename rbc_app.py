@@ -21,6 +21,10 @@ def signup():
 def creditPanel():
   return render_template('credit_panel.html')
 
+@app.route('/tables')
+def tables():
+  return render_template('tables.html')
+
 #@app.route('/user')
 #def user():
 #  return render_template('user.html') 
@@ -33,6 +37,9 @@ def my_form_post():
     if(request.method == "POST"):
         if((user in usr_pass.keys())and (passw == usr_pass.get(user))):
             return render_template("user.html",number1 = "15",number2 = "25")
+        if((user in employee_pass.keys())and (passw == employee_pass.get(user))):
+            render_template("tables.html")
+            return render_template("credit_panel.html")
         else:
             return render_template("sign-up.html")
     else:
