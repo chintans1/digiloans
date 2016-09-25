@@ -187,8 +187,38 @@ _________________________________________________________ -->
                             <p>With registration, you will have access to live updates of the progress of your loan application! It only takes two minutes to finish the application and within a few weeks, your approval will show on your desktop!</p>
                             <p class="text-muted">If you have any questions, please feel free to <a href="contact.html">contact us</a>, during our business hours from 8 am to 4 pm.</p>
 
-                            <!-- Change the width and height values to suihbiuhihipuhiht you best -->
+                            <!-- Change the width and height values to suit you best -->
+                        <div class="modal-body">
+                        <form action="." method="POST">
+                        
+                            <div class="form-group">
+                                <input type="text" name="usersignup" class="form-control" id="email_modal" placeholder="user name">
+                            </div>
+                            <div class="form-group">
+                                <input type="password" name="passsignup" class="form-control" id="password_modal" placeholder="password">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" name="email" class="form-control" id="email_modal" placeholder="email">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" name="sinnum" class="form-control" id="password_modal" placeholder="SIN number">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" name="phnnum" class="form-control" id="email_modal" placeholder="phone number">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" name="fname" class="form-control" id="email_modal" placeholder="first name">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" name="lname" class="form-control" id="email_modal" placeholder="last name">
+                            </div>
 
+                            <p class="text-center">
+                                <input type="submit" name="my-form" value="Login">
+                            </p>
+
+                        </form>
+                        </div>
                         </div>
                     </div>
 
@@ -203,12 +233,12 @@ _________________________________________________________ -->
 
                             <form action="customer-orders.html" method="post">
                                 <div class="form-group">
-                                    <label for="email">Email</label>
-                                    <input type="text" class="form-control" id="email">
+                                    <label for="email">Email/Username</label>
+                                    <input type="text" name="user" class="form-control" id="email">
                                 </div>
                                 <div class="form-group">
                                     <label for="password">Password</label>
-                                    <input type="password" class="form-control" id="password">
+                                    <input type="password" name="pass" class="form-control" id="password">
                                 </div>
                                 <div class="text-center">
                                     <button type="submit" class="btn btn-template-main"><i class="fa fa-sign-in"></i> Log in</button>

@@ -23,10 +23,11 @@ def my_form_post():
 
 app.route('/sign-up', methods=['POST'])
 def my_form_post():
-	try:
-	    user = request.form['user']
+	    user = request.form['usersignup']
+	    userlogin = request.form['user']
+    	passlogin = request.form['pass']
 	    email = request.form['email']
-	    passw = request.form['pass']
+	    passw = request.form['passsignup']
 	    sinnum = request.form['sinnum']
 	    phnnum = request.form['phnnum']
 	    firstname = request.form['fname']
