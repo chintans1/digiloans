@@ -1,8 +1,8 @@
-#container { text-align: center; margin: 20px; }
+#contentbar { text-align: center; margin: 20px; }
 h2 { color: #CCC; }
 a { text-decoration: none; color: #EC5C93; }
 
-.bar-main-container {
+.bar-main-contentbar {
   margin: 10px auto;
   width: 300px;
   height: 50px;
@@ -28,7 +28,7 @@ a { text-decoration: none; color: #EC5C93; }
   height: 16px;
 }
 
-.bar-container {
+.bar-contentbar {
   float: right;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
