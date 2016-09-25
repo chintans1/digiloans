@@ -14,12 +14,12 @@ def my_form_post():
     passw = request.form['pass']
     
     if(request.method == "POST"):
-	    if((user in usr_pass.keys())and (passw == usr_pass.get(user))):
-	    	return render_template("404.html")
-	    else:
-	        return render_template("sign-up.html")
-	else:
-		return render_template('index.html')
+        if((user in usr_pass.keys())and (passw == usr_pass.get(user))):
+            return render_template("404.html")
+        else:
+            return render_template("sign-up.html")
+    else:
+        return render_template('index.html')
 
 app.route('/sign-up', methods=['POST'])
 def my_form_post():
