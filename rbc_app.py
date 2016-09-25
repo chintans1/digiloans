@@ -8,6 +8,21 @@ usr_pass = {"jane":"1234","Mary":"hell0","rndm":"smh"}
 def my_form():
     return render_template("index.html")
 
+@app.route('/contact')
+def contact():
+  return render_template('contact.html')
+
+@app.route('/signup')
+def signup():
+  return render_template('sign-up.html')
+
+@app.route('/employee')
+def creditPanel():
+  return render_template('credit_panel.html')
+
+#@app.route('/user')
+#def user():
+#  return render_template('user.html') 
 
 @app.route('/', methods=['POST'])
 def my_form_post():
