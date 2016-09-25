@@ -99,7 +99,7 @@ div.section {
 .heading h4,
 .heading h5 {
   display: inline-block;
-  border-bottom: solid 5px #38a7bb;
+  border-bottom: solid 5px #002888;
   line-height: 1.1;
   margin-bottom: 0;
   padding-bottom: 10px;
@@ -113,7 +113,7 @@ div.section {
 .heading h4 i.fa,
 .heading h5 i.fa {
   display: inline-block;
-  background: #38a7bb;
+  background: #002888;
   width: 30px;
   height: 30px;
   vertical-align: middle;
@@ -545,16 +545,16 @@ body.boxed .navbar-affixed-top.affix {
   border-radius: 0;
 }
 .btn-template-main {
-  color: #38a7bb;
+  color: #002888;
   background-color: #ffffff;
-  border-color: #38a7bb;
+  border-color: #002888;
 }
 .btn-template-main:hover,
 .btn-template-main:focus,
 .btn-template-main:active,
 .btn-template-main.active,
 .open > .dropdown-toggle.btn-template-main {
-  color: #38a7bb;
+  color: #002888;
   background-color: #e6e6e6;
   border-color: #2a7d8c;
 }
@@ -579,19 +579,19 @@ fieldset[disabled] .btn-template-main:active,
 .btn-template-main[disabled].active,
 fieldset[disabled] .btn-template-main.active {
   background-color: #ffffff;
-  border-color: #38a7bb;
+  border-color: #002888;
 }
 .btn-template-main .badge {
   color: #ffffff;
-  background-color: #38a7bb;
+  background-color: #002888;
 }
 .btn-template-main:hover,
 .btn-template-main:focus,
 .btn-template-main:active,
 .btn-template-main.active {
-  background: #38a7bb;
+  background: #002888;
   color: #ffffff;
-  border-color: #38a7bb;
+  border-color: #002888;
 }
 .btn-template-transparent-primary {
   color: #ffffff;
@@ -3244,7 +3244,7 @@ label {
   border-radius: 0;
 }
 .form-control:focus {
-  border-color: #38a7bb;
+  border-color: #002888;
   outline: 0;
   -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(56, 167, 187, 0.6);
   box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(56, 167, 187, 0.6);
@@ -3274,7 +3274,7 @@ label {
 .pager li > a:focus {
   text-decoration: none;
   color: #fff;
-  background-color: #38a7bb;
+  background-color: #002888;
 }
 .pager .disabled > a,
 .pager .disabled > a:hover,
@@ -3295,7 +3295,7 @@ label {
   padding: 6px 12px;
   line-height: 1.42857143;
   text-decoration: none;
-  color: #38a7bb;
+  color: #002888;
   background-color: #ffffff;
   border: 1px solid #dddddd;
 }
@@ -3303,7 +3303,7 @@ label {
 .pagination > li > span:hover,
 .pagination > li > a:focus,
 .pagination > li > span:focus {
-  color: #38a7bb;
+  color: #002888;
   background-color: #a7dbe5;
   border-color: #dddddd;
 }
@@ -3398,7 +3398,7 @@ p {
   font-style: italic;
 }
 .text-primary {
-  color: #38a7bb;
+  color: #002888;
 }
 a.text-primary:hover {
   color: #2c8494;
