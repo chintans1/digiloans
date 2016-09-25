@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def my_form():
-    return render_template("testcommand.html")
+    return render_template("index.html")
 
 @app.route('/', methods=['POST'])
 def my_form_post():
@@ -15,8 +15,5 @@ def my_form_post():
     	return "logged in"
     else:
         return str((user,passw)).encode("utf8")	
-
-
-
 if __name__ == '__main__':
     app.run()
