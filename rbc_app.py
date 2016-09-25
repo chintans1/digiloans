@@ -1,20 +1,20 @@
-from flask import Flask
-from flask import request
-from flask import render_template
+from flask import Flask, render_template, redirect, url_for, request
+
 
 app = Flask(__name__)
 
 @app.route('/')
 def my_form():
-    return render_template("index.html")
+    return render_template("testcommand.html")
 
 @app.route('/', methods=['POST'])
 def my_form_post():
-    text = request.form['text']
-    if(text == "ilidf10y"):
+    user = request.form['user']
+    passw = request.form['pass']
+    if(user == "123"):
     	return "logged in"
     else:
-        return "wrong password"	
+        return str((user,passw)).encode("utf8")	
 
 
 
