@@ -7,18 +7,17 @@ usr_pass = {"jane":"1234","Mary":"hell0","rndm":"smh"}
 @app.route('/')
 def my_form():
     return render_template("index.html")
-@app.route('/')
-def my_form_user():
-    return render_template("user.html", number = "2")
+
 
 @app.route('/', methods=['POST'])
 def my_form_post():
     user = request.form['user']
     passw = request.form['pass']
+    contact = request.form['contact']
     
     if(request.method == "POST"):
         if((user in usr_pass.keys())and (passw == usr_pass.get(user))):
-            return render_template("user.html")
+            return render_template("user.html",number = "15")
         else:
             return render_template("sign-up.html")
     else:
