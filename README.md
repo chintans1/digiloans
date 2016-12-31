@@ -14,6 +14,9 @@ We also know that first time small businesses will have many questions regarding
 
 # Value to RBC
 • This will allow RBC to compete with other fast paced online loan companies such as Borrowell, Mogo, and Lending Loop in a much safer and legal manner
+
 • Will attract clients that like knowing the status of their loans
+
 • Makes getting approved for a loan easier and simpler
+
 • Sets a precedent in moving major bank loan approvals from face to face to online
