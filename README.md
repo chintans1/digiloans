@@ -1,5 +1,6 @@
 # DigiLoans
 A web application that was developed at RBC Next Great Innovator Hackathon 2016
+
 Developers: Chintan Shah, Prashant Patel, Harsh Patel, Dinoyan Ganeshalingam, Samiul Haque
 
 # Thought Process
