@@ -1,0 +1,424 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"projects",
+				"projects"
+			],
+			[
+				"about",
+				"about"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "rbc_app.py",
+			"settings":
+			{
+				"buffer_size": 1411,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 357.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Disable Package"
+			],
+			[
+				"Install",
+				"Package Control: Install Package"
+			],
+			[
+				"Pack",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: In",
+				"Package Control: Install Package"
+			],
+			[
+				"Package",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 382.0
+	},
+	"console":
+	{
+		"height": 88.0,
+		"history":
+		[
+			"Material Theme: Activiate theme",
+			"Material Theme: Activate theme",
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Chintan/Documents/Development/Flask/Twitter/static/css/materialize.css",
+		"/C/Users/Chintan/Documents/Development/Flask/Twitter/templates/index.html",
+		"/C/Users/Chintan/Documents/Development/Flask/Twitter/init_db.py",
+		"/C/Users/Chintan/Documents/Development/Flask/Twitter/templates/base.html",
+		"/C/Users/Chintan/AppData/Roaming/Sublime Text 3/Packages/User/GutterColor.sublime-settings",
+		"/C/Users/Chintan/Documents/Development/Flask/Twitter/server.py",
+		"/C/Users/Chintan/Documents/Development/Hackathons/digiloans/README.md",
+		"/C/Users/Chintan/AppData/Roaming/Sublime Text 3/Packages/MarkdownEditing/README.md",
+		"/C/Users/Chintan/AppData/Roaming/Sublime Text 3/Packages/MarkdownEditing/Markdown (Standard).sublime-settings",
+		"/C/Users/Chintan/AppData/Roaming/Sublime Text 3/Packages/User/Markdown (Standard).sublime-settings",
+		"/C/Users/Chintan/AppData/Roaming/Sublime Text 3/Packages/Terminal/Terminal.sublime-settings",
+		"/C/Users/Chintan/AppData/Roaming/Sublime Text 3/Packages/SideBarEnhancements/Side Bar.sublime-settings",
+		"/C/Users/Chintan/Documents/Development/Website/chintans/index.html",
+		"/C/Users/Chintan/Documents/Development/Flask/Twitter/static/style.css",
+		"/C/Users/Chintan/Documents/Development/Other/Visual-Scraper-master/elections.html",
+		"/C/Users/Chintan/Documents/Development/Other/Visual-Scraper-master/education.html",
+		"/C/Users/Chintan/Documents/Development/Other/Visual-Scraper-master/firstcommit",
+		"/C/Users/Chintan/Documents/Development/Other/Visual-Scraper-master/about.html",
+		"/C/Users/Chintan/Documents/Development/Other/Visual-Scraper-master/header.php",
+		"/C/Users/Chintan/Documents/Development/Other/Visual-Scraper-master/home_page.html",
+		"/C/Users/Chintan/Documents/Development/Chrome Extensions/UofT-RateMyProf/jquery-3.1.1.js",
+		"/C/Users/Chintan/Documents/Development/Chrome Extensions/UofT-RateMyProf/utsc_ratings.js",
+		"/C/Users/Chintan/Documents/Development/Chrome Extensions/UofT-RateMyProf/background.js",
+		"/C/Users/Chintan/Documents/Development/Chrome Extensions/UofT-RateMyProf/manifest.json",
+		"/C/Users/Chintan/Documents/Development/Chrome Extensions/Tutorial/popup.js",
+		"/C/Users/Chintan/Documents/Development/Chrome Extensions/Tutorial/popup.html",
+		"/C/Users/Chintan/Documents/Development/Django/basic_project/basic_project/urls.py",
+		"/C/Users/Chintan/Documents/Development/Django/basic_project/basic_project/views.py",
+		"/C/Users/Chintan/Documents/Development/Django/basic_project/basic_project/settings.py",
+		"/C/Users/Chintan/Documents/Development/Website/chintans/css/materialize.min.css",
+		"/C/Users/Chintan/Documents/Development/Website/chintans/css/materialize.css",
+		"/C/Users/Chintan/Documents/Development/Website/chintans/js/materialize.js",
+		"/C/Users/Chintan/Documents/Development/Website/chintans/js/materialize.min.js",
+		"/C/Users/Chintan/Documents/Development/Website/chintans/LICENSE",
+		"/C/Users/Chintan/Documents/Development/Website/chintans/CNAME",
+		"/C/Program Files/MongoDB/Server/3.4/bin/mongod.cfg",
+		"/C/Users/Chintan/Documents/Development/Website/chintans/js/init.js",
+		"/C/Users/Chintan/Documents/Development/Website/chintans/mail.php",
+		"/C/Users/Chintan/Documents/Development/Website/chintans/unused.html",
+		"/C/Users/Chintan/Documents/Development/Website/chintans/Display.html",
+		"//192.168.1.70/Userdata/sources.xml",
+		"/C/Users/Chintan/Documents/Kodi/repo/README.md",
+		"/C/Users/Chintan/Documents/OneDrive - University of Toronto/University/1st Year/CSCA08/Assignments/A1/cipher_functions.py",
+		"/C/Users/Chintan/Documents/OneDrive - University of Toronto/University/1st Year/CSCA08/Assignments/A1/cipher_program.py",
+		"/C/Users/Chintan/Documents/OneDrive - University of Toronto/University/1st Year/CSCA08/Assignments/A2/squeal.py",
+		"/C/Users/Chintan/Documents/OneDrive - University of Toronto/University/1st Year/CSCA08/Exercises/lol.py",
+		"/C/Users/Chintan/Documents/OneDrive - University of Toronto/University/1st Year/CSCA08/Assignments/A2/assignment2.txt",
+		"/C/Users/Chintan/Documents/OneDrive - University of Toronto/University/1st Year/CSCA08/Assignments/A2/a2-shahchi6/a2-shahchi6/reading.py",
+		"/C/Users/Chintan/Documents/OneDrive - University of Toronto/University/1st Year/CSCA08/Assignments/A2/oscar-film.csv",
+		"/C/Users/Chintan/Documents/OneDrive - University of Toronto/University/1st Year/CSCA08/Assignments/A2/oscars.csv",
+		"/C/Users/Chintan/Documents/OneDrive - University of Toronto/University/1st Year/CSCA08/Assignments/A2/reading.py",
+		"/C/Users/Chintan/Documents/OneDrive - University of Toronto/University/1st Year/CSCA08/Assignments/A2/a2-shahchi6/a2-shahchi6/database.py",
+		"/C/Users/Chintan/Documents/OneDrive - University of Toronto/University/1st Year/CSCA08/Assignments/A2/a2-shahchi6/a2-shahchi6/squeal.py",
+		"/C/Users/Chintan/Documents/OneDrive - University of Toronto/University/1st Year/CSCA08/Assignments/A2/csv_files/seinfeld-episodes.csv",
+		"/C/Users/Chintan/Documents/OneDrive - University of Toronto/University/1st Year/CSCA08/Assignments/A2/csv_files/oscar-film.csv",
+		"/C/Users/Chintan/Documents/OneDrive - University of Toronto/University/1st Year/CSCA08/Assignments/A2/csv_files/oscar-actor.csv",
+		"/C/Users/Chintan/Documents/OneDrive - University of Toronto/University/1st Year/CSCA08/Assignments/A2/csv_files/olympics-results.csv",
+		"/C/Users/Chintan/Documents/OneDrive - University of Toronto/University/1st Year/CSCA08/Assignments/A2/csv_files/olympics-locations.csv",
+		"/C/Users/Chintan/Documents/OneDrive - University of Toronto/University/1st Year/CSCA08/Assignments/A2/csv_files/boxoffice.csv",
+		"/C/Users/Chintan/Documents/Others/SQL/database.py",
+		"/C/Users/Chintan/Documents/OneDrive - University of Toronto/University/1st Year/CSCA08/Assignments/A2/csv_files/books.csv",
+		"/C/Users/Chintan/Documents/OneDrive - University of Toronto/University/1st Year/CSCA08/Assignments/A2/csv_files/seinfeld-foods.csv",
+		"/C/Users/Chintan/Documents/OneDrive - University of Toronto/University/1st Year/CSCA08/Assignments/A2/csv_files/imdb.csv",
+		"/C/Users/Chintan/Documents/OneDrive - University of Toronto/University/1st Year/CSCA08/Assignments/A2/empty.csv",
+		"/C/Users/Chintan/Documents/OneDrive - University of Toronto/University/1st Year/CSCA08/Assignments/A2/csv_files/books-olylocations.csv",
+		"/C/Users/Chintan/Documents/OneDrive - University of Toronto/University/1st Year/CSCA08/Assignments/A2/movies.csv",
+		"/C/Users/Chintan/Documents/Development/Hackathons/ECHacks/Bootstrap Bootcamp.html",
+		"/C/Users/Chintan/Documents/OneDrive - University of Toronto/University/1st Year/CSCA08/Assignments/A1/assignment1.txt",
+		"/C/Users/Chintan/Documents/OneDrive - University of Toronto/University/1st Year/CSCA08/Assignments/A1/secret4.txt",
+		"/C/Users/Chintan/Documents/OneDrive - University of Toronto/University/1st Year/CSCA08/Assignments/A1/deck1.txt",
+		"/C/Users/Chintan/Documents/OneDrive - University of Toronto/University/1st Year/CSCA08/Assignments/Others/cipher_program.py",
+		"/C/Users/Chintan/Documents/OneDrive - University of Toronto/University/1st Year/CSCA08/Assignments/Others/cipher_functions.py",
+		"/C/Users/Chintan/Downloads/ex7.py",
+		"/C/Users/Chintan/Documents/University/1st Year/CSCA08/Assignments/A0/a0.py",
+		"/C/Users/Chintan/Documents/University/1st Year/CSCA08/Assignments/A1/assignment1.txt",
+		"/C/Users/Chintan/Documents/Development/Hackathons/RBC/ProjectX/static/css/owl.carousel.css",
+		"/C/Users/Chintan/Documents/Development/Hackathons/RBC/ProjectX/static/css/owl.theme.css",
+		"/C/Users/Chintan/Documents/Development/Hackathons/RBC/ProjectX/static/css/status_123.css",
+		"/C/Users/Chintan/Documents/Development/Hackathons/RBC/ProjectX/templates/status_bar.html",
+		"/C/Users/Chintan/Documents/Development/Hackathons/RBC/ProjectX/templates/credit_panel.html",
+		"/C/Users/Chintan/Documents/Development/Hackathons/RBC/ProjectX/templates/404.html",
+		"/C/Users/Chintan/Documents/University/1st Year/CSCA08/Exercises/ex4.py",
+		"/C/Users/Chintan/Documents/Resumes/BaseResume.html",
+		"/C/Users/Chintan/Documents/University/1st Year/CSCA08/Exercises/ex3.py",
+		"/C/Users/Chintan/Downloads/Temporary/ex2.py",
+		"/C/Users/Chintan/Documents/Development/Hackathons/RBC/ProjectX/static/css/style.default.css",
+		"/C/Users/Chintan/Documents/Development/Hackathons/RBC/ProjectX/rbc_app.py",
+		"/C/Users/Chintan/Documents/University/1st Year/CSCA08/Assignments/a0.py",
+		"/C/Users/Chintan/Documents/Development/Hackathons/RBC/ProjectX/templates/sign-up.html",
+		"/C/Users/Chintan/Documents/Development/Hackathons/RBC/ProjectX/templates/user.html",
+		"/C/Users/Chintan/Documents/Development/Hackathons/RBC/ProjectX/templates/tables.html",
+		"/C/Users/Chintan/Documents/Development/Hackathons/RBC/ProjectX/templates/contact.html",
+		"/C/Users/Chintan/Documents/Development/Hackathons/RBC/ProjectX/templates/index.html",
+		"/C/Users/Chintan/Documents/Development/Hackathons/RBC/source/index.html",
+		"/C/Users/Chintan/Documents/Development/Hackathons/RBC/RBCPHP/README.md",
+		"/C/Users/Chintan/Documents/Development/Hackathons/RBC/source/template.html",
+		"/C/Users/Chintan/Documents/Development/Hackathons/RBC/ProjectX/templates/team-member.html",
+		"/C/Users/Chintan/Documents/Development/Hackathons/RBC/NGI-2016/NGI 2016/RBC-Design-Standards.pdf",
+		"/C/Users/Chintan/Documents/Development/Hackathons/RBC/ProjectX/universal/index.html",
+		"/C/Users/Chintan/Documents/Development/Hackathons/RBC/ProjectX/universal/sign-up.html",
+		"/C/Users/Chintan/Documents/Development/Hackathons/RBC/ProjectX/templates/error403.html",
+		"/C/Users/Chintan/Documents/Development/Hackathons/RBC/ProjectX/templates/chat.html",
+		"/C/Users/Chintan/Documents/Development/Hackathons/RBC/ProjectX/templates/charts.html",
+		"/C/Users/Chintan/Documents/Development/Hackathons/RBC/ProjectX/templates/calendar.html",
+		"/C/Users/Chintan/Documents/Development/Hackathons/RBC/ProjectX/templates/buttons.html",
+		"/C/Users/Chintan/Documents/Development/Hackathons/RBC/ProjectX/templates/form-wizard.html",
+		"/C/Users/Chintan/Documents/Development/Hackathons/RBC/ProjectX/templates/form-validation.html",
+		"/C/Users/Chintan/Documents/Development/Hackathons/RBC/ProjectX/templates/form-common.html",
+		"/C/Users/Chintan/Documents/Development/Hackathons/RBC/ProjectX/templates/error500.html",
+		"/C/Users/Chintan/Documents/Development/Hackathons/RBC/ProjectX/templates/error405.html",
+		"/C/Users/Chintan/Documents/Development/Hackathons/RBC/ProjectX/templates/error404.html",
+		"/C/Users/Chintan/Downloads/Temporary/2016-09-18-19-13-34.txt",
+		"/C/Users/Chintan/Downloads/Temporary/2016-09-18-19-10-49.txt",
+		"/C/Users/Chintan/Documents/University/1st Year/MATA31/MATA31 Course Timetable.pdf",
+		"/C/Users/Chintan/Documents/My Stuff/Website/html5-bigpicture/index.html",
+		"/C/Users/Chintan/Documents/My Stuff/Website/html5-bigpicture/assets/css/main.css",
+		"/C/Users/Chintan/Documents/GitHub/chintans/test/index.html",
+		"/C/Users/Chintan/Documents/GitHub/chintans/test/assets/css/backup.css",
+		"/C/Users/Chintan/Documents/GitHub/chintans/test/assets/css/main.css"
+	],
+	"find":
+	{
+		"height": 70.0
+	},
+	"find_in_files":
+	{
+		"height": 117.0,
+		"where_history":
+		[
+			"",
+			"002888"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"input-field",
+			"append",
+			"url(r'^time/plus/(\\d{1,2})/$', hours_ahead),",
+			"body {",
+			"9e9e9e",
+			"input-field {",
+			"26a69a",
+			"input-field",
+			"body {",
+			"body",
+			"carousel",
+			"header {",
+			"li {",
+			"border-bottom",
+			"border",
+			"ee6e",
+			"nav",
+			"Anthony",
+			"omitting",
+			"0,",
+			"HNIJYLPEVKBNL",
+			"\t\t\n",
+			"if",
+			"38a7bb",
+			"color",
+			"<<<<",
+			"href",
+			"Loan",
+			"user",
+			"user.html",
+			"render",
+			"content",
+			"body",
+			"content",
+			"38a7bb",
+			"link",
+			"btn",
+			"user",
+			"fa-user",
+			"btn",
+			"control",
+			"form-gro",
+			"form",
+			"h1",
+			"cold",
+			"heading",
+			"<<<<<",
+			"login",
+			"customer",
+			"icon.",
+			"icon",
+			"container",
+			"car",
+			"Contact",
+			"/static/",
+			"/img",
+			"href",
+			"logcat",
+			"header",
+			"person",
+			"fa",
+			"fa-",
+			".avatar",
+			"../../images/bg.jpg",
+			"images/overlay.png"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"002888",
+			".person",
+			"../../assets/images/background.jpg",
+			"../../assets/images/overlay.png"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "rbc_app.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1411,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								212,
+								212
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 48.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "rbc_app.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 188.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
